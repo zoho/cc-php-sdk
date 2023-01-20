@@ -1,6 +1,6 @@
 {
 	"name" : "cc/cc-php-sdk",
-	"description" : "PF SDK for PHP",
+	"description" : "PHP SDK for CommandCenter",
 	"type" : "sdk",
 	"homepage": "https://github.com/zoho/cc-php-sdk",
 	"license": "Apache-2.0",
