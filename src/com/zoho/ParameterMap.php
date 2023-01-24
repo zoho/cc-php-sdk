@@ -65,6 +65,10 @@ class ParameterMap
         }else if(!($value instanceof \DateTime) && !is_string($value) && !is_bool($value) && !is_int($value) && !checkdate($value)) {
             throw new SDKException(Constants::INVALID_DATA_TYPE, $paramName.", Please use the proper datatype");
        }
+       
+       if(is_int($value) && strlen((string)$value) > 9) {
+           throw new SDKException('Invalid data', $paramName.", value should not exceed 9 digits for Integer");
+       }
 
         $paramClassName = $param->getClassName();
 
