@@ -253,7 +253,7 @@ class CommonAPIHandler
             $isLimitExceeded = $limitDetail["is_limit_exahusted"];
 
             if(!$isLimitExceeded || !$limitDetail["api_enable_time"] || $limitDetail["api_enable_time"] <= (time() * 1000)) {
-                $connector->addHeader(Constants::ZOHO_SDK, php_uname('s') . "/" . php_uname('r') . "/" . "cc/cc-php-sdk/" . phpversion() . ":" . Constants::SDK_VERSION);
+                $connector->addHeader(Constants::ZOHO_SDK, php_uname('s') . "/" . php_uname('r') . "/" . "zcc/cc-php-sdk/" . phpversion() . ":" . Constants::SDK_VERSION);
 
                 $convertInstance = new TextConverter($this);
 

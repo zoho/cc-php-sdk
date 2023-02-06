@@ -1,5 +1,5 @@
 {
-	"name" : "cc/cc-php-sdk",
+	"name" : "zcc/cc-php-sdk",
 	"description" : "PHP SDK for CommandCenter",
 	"type" : "sdk",
 	"homepage": "https://github.com/zoho/cc-php-sdk",

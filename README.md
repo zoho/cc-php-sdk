@@ -71,7 +71,7 @@ You can include the SDK to your project using:
   - Run the command below:
 
     ```sh
-    composer require cc/cc-php-sdk
+    composer require zcc/cc-php-sdk
     ```
 
   - The PHP SDK will be installed and a package named vendor will be created in the workspace of your client app.
